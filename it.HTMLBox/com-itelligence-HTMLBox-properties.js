@@ -14,8 +14,8 @@ define( [], function () {
 				uses: "settings",
 				items: {
 				customProp2: {
-						ref: "qDef.url",
-						label: "URL",
+						ref: "qDef.HTML",
+						label: "HTML",
 						//component: "bo",
 						type: "string",
 						defaultValue: ""
