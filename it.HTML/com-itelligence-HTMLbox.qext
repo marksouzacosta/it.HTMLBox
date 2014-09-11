@@ -1,0 +1,9 @@
+{
+	"name" : "it.HTMLbox",
+	"description" : "Box that can contain a HTML string from itelligence nordic",
+	"icon" : "extension",
+	"type" : "visualization",
+	"version": "0.1",
+	"preview" : "extension",
+	"author": "Torben Seebach itelligence Nordic"
+}
