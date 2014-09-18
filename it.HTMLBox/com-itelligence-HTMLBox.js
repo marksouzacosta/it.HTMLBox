@@ -4,10 +4,10 @@
 	Create HTML canvas like the textbox for entering html		
 */
  
-define(["jquery","./com-itelligence-HTMLBox-properties"], function($,properties) {
+define(["jquery","./com-itelligence-htmlBox-properties"], function($,properties) {
 
 	return {
-		type : "HTML Box",
+		type : "it.HTML Box",
 		//Refer to the properties file
 		definition : properties,
 

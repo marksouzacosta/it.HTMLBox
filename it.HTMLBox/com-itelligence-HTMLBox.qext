@@ -1,5 +1,5 @@
 {
-	"name" : "it.HTMLbox",
+	"name" : "it.htmlBox",
 	"description" : "Box that can contain a HTML string from itelligence nordic",
 	"icon" : "extension",
 	"type" : "visualization",
