@@ -18,6 +18,7 @@ define( [], function () {
 						label: "HTML",
 						//component: "bo",
 						type: "string",
+						expression: "optional",
 						defaultValue: ""
 					}					
 				}
