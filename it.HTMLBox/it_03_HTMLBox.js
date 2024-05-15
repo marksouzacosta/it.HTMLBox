@@ -1,16 +1,7 @@
-/*globals define, console*/
-/*
-	ToDo:
-	Create HTML canvas like the textbox for entering html		
-*/
- 
-define(["jquery","./com-itelligence-htmlBox-properties"], function($,properties) {
-
+define(["jquery","./it_03_HTMLBox_properties"], function($,properties) {
 	return {
-		type : "it.HTML Box",
-		//Refer to the properties file
+		type : "it.HTMLBox",
 		definition : properties,
-
 		initialProperties : {
 			version: 1.0,
 			qHyperCubeDef : {
@@ -30,9 +21,7 @@ define(["jquery","./com-itelligence-htmlBox-properties"], function($,properties)
 			canTakeSnapshot : false
 		},
 		paint : function($element, layout) { 
-	
-				$element.html(layout.qDef['HTML']) ; 
-				
-		}	
+				$element.html(layout.qDef['HTML']);
+		}
 	};
 });

@@ -1,11 +1,4 @@
-/**
- * @creator Erik Wetterberg (ewg)
- * @modifier @owner Torben Seebach itelligence
- * @contributer Patrik Lundblad
- */
-
 define( [], function () {
-
 	return {
 		type: "items",
 		component: "accordion",
@@ -16,7 +9,6 @@ define( [], function () {
 				customProp2: {
 						ref: "qDef.HTML",
 						label: "HTML",
-						//component: "bo",
 						type: "string",
 						expression: "optional",
 						defaultValue: ""
@@ -25,5 +17,4 @@ define( [], function () {
 			}
 		}
 	};
-
 } );
